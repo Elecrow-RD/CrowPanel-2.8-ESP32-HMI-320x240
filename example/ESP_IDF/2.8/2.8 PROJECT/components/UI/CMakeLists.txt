@@ -1,0 +1,16 @@
+
+idf_component_register(SRCS "ui.c"
+                            "ui_helpers.c"
+                            "ui_img_320x240_r0_28_png.c"
+                            "ui_img_97665003.c"
+                            "ui_img_553284475.c"
+                            "ui_img_1220821074.c"
+                            "ui_img_1406806916.c"
+                            "ui_img_1614410570.c"
+                            "ui_img_bar_320_01_png.c"
+                            "ui_img_bar_320_02_png.c"
+                            "ui_img_icon_click_1_png.c"
+                            "ui_img_icon_home_1_png.c"
+                            "ui_img_wizee_logo_01_80x20_png.c"
+                    INCLUDE_DIRS "."
+                    PRIV_REQUIRES lvgl-3)

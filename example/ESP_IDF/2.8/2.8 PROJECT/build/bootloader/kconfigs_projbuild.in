@@ -1,0 +1,4 @@
+source "E:/Espressif441/Espressif/frameworks/esp-idf-v4.4.1/components/bootloader/Kconfig.projbuild"
+source "E:/Espressif441/Espressif/frameworks/esp-idf-v4.4.1/components/esp_rom/Kconfig.projbuild"
+source "E:/Espressif441/Espressif/frameworks/esp-idf-v4.4.1/components/esptool_py/Kconfig.projbuild"
+source "E:/Espressif441/Espressif/frameworks/esp-idf-v4.4.1/components/partition_table/Kconfig.projbuild"
