@@ -1,14 +1,14 @@
-1, Product picture
+### 1, Product picture
 
 ![2.8_hmi_esp32_display](./2.8_hmi_esp32_display.png)
 
-2, Product version number
+### 2, Product version number
 
 |      | Hardware | Software | Remark |
 | ---- | -------- | -------- | ------ |
-| 1    | V2.1     | V1.0     | latest |
+| 1    | V2.1     | V2.0     | latest |
 
-3, product information
+### 3, product information
 
 - Model: 2.8 inches CrowPanel ESP32 display
 - Main Processor: ESP32-WROOM-32-N4
@@ -24,13 +24,13 @@
 - Working Temperature: -20℃～70℃
 - Storage Temperature: -30℃～80℃
 
-4, Use the driver module
+### 4, Use the driver module
 
 | Name | dependency library |
 | ---- | ------------------ |
 | LVGL | lvgl/lvgl@8.3.3    |
 
-5,Quick Start
+### 5,Quick Start
 
 ##### Arduino IDE starts
 
@@ -85,7 +85,7 @@ C:\Users\Documents\Arduino\libraries\
 
 ![thonny2](./thonny2.jpg)
 
-6,Folder structure.
+### 6,Folder structure.
 
 |--3D file： Contains 3D model files (.stp) for the hardware. These files can be used for visualization, enclosure design, or integration into CAD software.
 
@@ -99,7 +99,7 @@ C:\Users\Documents\Arduino\libraries\
 
 |--factory_sourcecode: Contains the source code for the factory firmware, allowing users to modify and rebuild the firmware as needed.
 
-7,Pin definition
+### 7,Pin definition
 
 #define SD_MOSI 23
 
