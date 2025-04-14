@@ -4,7 +4,7 @@
 
 - USB C cable
 - Laptop/PC
-- Crowpanel Advance HMI ESP32 AI Display
+- Crowpanel 2.8 HMI ESP32 Display
 - Flash download tool
 
 Check whether the materials on the PCBA board are defective. Such as less material, false welding, tin and other bad phenomena.
@@ -21,9 +21,11 @@ Check whether the materials on the PCBA board are defective. Such as less materi
 
 
 
-For the  Crowpanel Advance HMI ESP32 AI Display, the chip select ESP32-S3:
+For the  Crowpanel 2.8 HMI ESP32 Display, the chip select ESP32:
 
-![flash03](./flash03.jpg)
+![firmware1](https://github.com/user-attachments/assets/55887bd4-7fe5-423c-89c1-9548dbfdcad2)
+
+
 
 ##### Step3
 
@@ -37,7 +39,7 @@ boot_app0.bin------0xe000
 
 xxxx.ino.bin--------0x10000
 
-xxxx.ino.bootloader.bin------0x0
+xxxx.ino.bootloader.bin------0x1000
 
 xxxx.ino.partitions.bin-------0x8000
 
@@ -49,11 +51,15 @@ xxxx.ino.partitions.bin-------0x8000
 
 ⑤Click “Start” to download
 
-![flash1](./flash1.jpg)
+![firmware2](https://github.com/user-attachments/assets/83ce3c19-dd1d-4759-b0d0-c0099193a902)
+
+
 
 ##### Step5 After the download is complete, blue FINISH will be displayed, and the progress bar at the bottom shows that it has come to an end.
 
-![flash2](./flash2.jpg)
+![firmware3](https://github.com/user-attachments/assets/80c630c0-1905-4640-a14b-00ea490a871d)
+
+
 
 ##### Step6 Press the reset button to show the demo.
 
