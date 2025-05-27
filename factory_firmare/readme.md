@@ -53,7 +53,7 @@ xxxx.ino.partitions.bin-------0x8000
 
 ![firmware2](https://github.com/user-attachments/assets/83ce3c19-dd1d-4759-b0d0-c0099193a902)
 
-###Note: If it is v1.0 version, before downloading firmware or program, you need to press the boot button, then short press the reset button, and then release the boot button to enter the burn mode. If it is v2.0 or above, this step is not needed, it will automatically enter into burn mode.
+### Note: If it is v1.0 version, before downloading firmware or program, you need to press the boot button, then short press the reset button, and then release the boot button to enter the burn mode. If it is v2.0 or above, this step is not needed, it will automatically enter into burn mode.
 
 
 ##### Step5 After the download is complete, blue FINISH will be displayed, and the progress bar at the bottom shows that it has come to an end.
