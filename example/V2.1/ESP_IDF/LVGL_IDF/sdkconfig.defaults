@@ -1,0 +1,18 @@
+# ESP-IDF 5.5.4 defaults for CrowPanel ESP32 2.4
+
+CONFIG_IDF_TARGET="esp32"
+
+# Arduino requires 1000 Hz tick rate
+CONFIG_FREERTOS_HZ=1000
+
+# Arduino as ESP-IDF component
+CONFIG_ENABLE_ARDUINO_DEPENDS=y
+CONFIG_ARDUINO_VARIANT="esp32"
+# CONFIG_AUTOSTART_ARDUINO is not set
+
+# Use User_Setup.h pin definitions instead of menuconfig defaults
+# CONFIG_TFT_eSPI_ESPIDF is not set
+
+# LVGL uses lv_conf.h in components/lvgl-3/
+CONFIG_LV_CONF_SKIP=y
+CONFIG_LV_FONT_MONTSERRAT_16=y
