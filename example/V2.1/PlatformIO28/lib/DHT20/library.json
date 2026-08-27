@@ -1,8 +1,0 @@
-{
-  "name": "DHT20",
-  "version": "1.0.0",
-  "description": "Minimal DHT20 I2C driver used by the CrowPanel PlatformIO lesson",
-  "frameworks": "arduino",
-  "platforms": "espressif32",
-  "headers": ["DHT20.h"]
-}
